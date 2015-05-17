@@ -3,6 +3,8 @@
 
 #include <QMainWindow>
 #include "fermentablemodel.h"
+#include "hopmodel.h"
+#include "yeastmodel.h"
 
 namespace Ui {
 class MainWindow;
@@ -19,6 +21,8 @@ public:
 private:
     Ui::MainWindow *ui;
     FermentableModel fermModel;
+    HopModel hopModel;
+    YeastModel yeastModel;
 };
 
 #endif // MAINWINDOW_H

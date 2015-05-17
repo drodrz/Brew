@@ -33,7 +33,7 @@ QVariant FermentableModel::data(const QModelIndex &index, int role) const {
             case 0: return fermentables.at(index.row())->name();
             case 1: return fermentables.at(index.row())->amount();
             case 2: return QString("lbs");                          // TODO: Return QComboBox to select unit of measure
-            case 3: return 100;                                     // TODO: Calculate percentage of grist
+            case 3: return QString("100%");                         // TODO: Calculate percentage of grist
         }
     }
     return QVariant();

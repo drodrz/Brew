@@ -15,10 +15,18 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     fermentablemodel.cpp \
-    fermentable.cpp
+    fermentable.cpp \
+    hop.cpp \
+    hopmodel.cpp \
+    yeastmodel.cpp \
+    yeast.cpp
 
 HEADERS  += mainwindow.h \
     fermentablemodel.h \
-    fermentable.h
+    fermentable.h \
+    hop.h \
+    hopmodel.h \
+    yeastmodel.h \
+    yeast.h
 
 FORMS    += mainwindow.ui
