@@ -14,11 +14,11 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    fermentable.cpp \
-    fermentablemodel.cpp
+    fermentablemodel.cpp \
+    fermentable.cpp
 
 HEADERS  += mainwindow.h \
-    fermentable.h \
-    fermentablemodel.h
+    fermentablemodel.h \
+    fermentable.h
 
 FORMS    += mainwindow.ui

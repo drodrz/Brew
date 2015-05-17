@@ -1,14 +1,10 @@
 #include "fermentable.h"
 
-Fermentable::Fermentable(QObject *parent) : QObject(parent)
-{
-
+// Fermentable Constructor
+Fermentable::Fermentable(QString name, QString type, float ppg, int lovibond, float amt) {
+    _name = name;
+    _type = type;
+    _ppg = ppg;
+    _lovibond = lovibond;
+    _amount = amt;
 }
-
-//Fermentable::Fermentable(QString name, QString type, QString usage, int ppg, int lovibond) {
-//    name = name;
-//    type = type;
-//    usage = usage;
-//    ppg = ppg;
-//    lovibond = lovibond;
-//}
