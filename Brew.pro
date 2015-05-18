@@ -19,7 +19,8 @@ SOURCES += main.cpp\
     hop.cpp \
     hopmodel.cpp \
     yeastmodel.cpp \
-    yeast.cpp
+    yeast.cpp \
+    recipe.cpp
 
 HEADERS  += mainwindow.h \
     fermentablemodel.h \
@@ -27,6 +28,7 @@ HEADERS  += mainwindow.h \
     hop.h \
     hopmodel.h \
     yeastmodel.h \
-    yeast.h
+    yeast.h \
+    recipe.h
 
 FORMS    += mainwindow.ui
